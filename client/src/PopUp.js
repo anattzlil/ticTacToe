@@ -12,7 +12,6 @@ class PopUp extends Component{
             <button className="close" onClick={this.props.closeButton}>&times;</button>
             <div className="content">
                 {this.props.text}
-              {/* You are Great... You won the Computer!!! */}
             </div>
           </div>
         </div>
